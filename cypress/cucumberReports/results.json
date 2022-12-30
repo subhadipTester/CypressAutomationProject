@@ -1,0 +1,222 @@
+[
+  {
+    "description": "    ECommerce Application Regression",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-ecommerce-validation;ecommerce-products-delivery",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "ECommerce Products delivery",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User open Ecommerce Landing Page",
+            "result": {
+              "duration": 11496000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "User add items to the Cart",
+            "result": {
+              "duration": 9816000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "User validates the total prices",
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User select the country submit and Verify ThankYou message",
+            "result": {
+              "duration": 6514000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "end-to-end-ecommerce-validation;filling-up-the-form-to-shop",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Filling up the form to shop",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User open Ecommerce Landing Page",
+            "result": {
+              "duration": 1796000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 13,
+            "name": "User fill the form details",
+            "result": {
+              "duration": 3544000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User validates forms behaviour",
+            "result": {
+              "duration": 460000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "User select the Shop page",
+            "result": {
+              "duration": 2033000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "end-to-end-ecommerce-validation;filling-up-the-form-data-using-cucumber-dataset",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Filling up the form data using cucumber dataset",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 18,
+            "name": "User open Ecommerce Landing Page",
+            "result": {
+              "duration": 696000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 19,
+            "name": "User fill the form details using dataset",
+            "result": {
+              "duration": 4816000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "email",
+                  "password",
+                  "gender"
+                ]
+              },
+              {
+                "cells": [
+                  "David Willis",
+                  "subhadipsingh.referral@gmail.com",
+                  "Anthem@456",
+                  "Male"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User validates forms behaviour using dataset",
+            "result": {
+              "duration": 700000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 23,
+            "name": "User select the Shop page",
+            "result": {
+              "duration": 2450000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "id": "end-to-end-ecommerce-validation",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "End to End Ecommerce validation",
+    "uri": "cypress\\integration\\examples\\BDD\\ecommerce.feature"
+  }
+]

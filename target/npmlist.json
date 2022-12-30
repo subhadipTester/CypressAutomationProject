@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"cypressautomation","dependencies":{"@badeball/cypress-cucumber-preprocessor":{"version":"15.0.0"},"@cypress/browserify-preprocessor":{"version":"3.0.2"}}}
