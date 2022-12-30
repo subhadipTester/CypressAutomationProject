@@ -19,7 +19,7 @@ onBeforeLoad: function(window)
 })
 
 })
-
+cy.wait(6000);
 cy.get(".card-body b").eq(1).then(function(ele)
 {
   productName = ele.text()

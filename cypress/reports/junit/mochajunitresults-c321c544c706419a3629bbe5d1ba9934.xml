@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="true" time="0.875" tests="1" failures="0">
+  <testsuite name="" timestamp="2022-12-30T09:20:56" tests="0" file="cypress\integration\examples\EcommerceTestPage.js" time="0.000" failures="0">
+    <properties>
+      <property name="BUILD_ID" value="410"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Root Suite.Ecommerce Page Validation" timestamp="2022-12-30T09:20:57" tests="1" time="0.651" failures="0">
+    <properties>
+      <property name="BUILD_ID" value="410"/>
+    </properties>
+    <testcase name="End To End Validation of Ecommerce Page" time="0.811" classname="Ecommerce Page Validation End To End Validation of Ecommerce Page">
+    </testcase>
+  </testsuite>
+</testsuites>
