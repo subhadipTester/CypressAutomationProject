@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="true" time="92.006" tests="3" failures="0">
+  <testsuite name="" timestamp="2022-12-30T14:36:16" tests="0" file="cypress\integration\examples\BDD\ecommerce.feature" failures="0" time="0">
+    <properties>
+      <property name="BUILD_ID" value="409"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Root Suite.End to End Ecommerce validation" timestamp="2022-12-30T14:36:16" tests="3" failures="0" time="92.006">
+    <properties>
+      <property name="BUILD_ID" value="409"/>
+    </properties>
+    <testcase name="ECommerce Products delivery" time="36.65" classname="End to End Ecommerce validation ECommerce Products delivery" failure="false" error="false" success="true">
+    </testcase>
+    <testcase name="Filling up the form to shop" time="33.548" classname="End to End Ecommerce validation Filling up the form to shop" failure="false" error="false" success="true">
+    </testcase>
+    <testcase name="Filling up the form data using cucumber dataset" time="21.808" classname="End to End Ecommerce validation Filling up the form data using cucumber dataset" failure="false" error="false" success="true">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="true" time="87.474" tests="1" failures="0">
+  <testsuite name="" timestamp="2022-12-30T14:18:06" tests="0" file="cypress\integration\examples\ParameterisedTestCustomCommand.js" time="0.000" failures="0">
+    <properties>
+      <property name="BUILD_ID" value="410"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Root Suite.ProtoCommerce Practice Page Test" timestamp="2022-12-30T14:18:06" tests="1" time="87.281" failures="0">
+    <properties>
+      <property name="BUILD_ID" value="410"/>
+    </properties>
+    <testcase name="Interacting with Webpage UI elements " time="68.171" classname="ProtoCommerce Practice Page Test Interacting with Webpage UI elements ">
+    </testcase>
+  </testsuite>
+</testsuites>

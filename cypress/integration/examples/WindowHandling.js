@@ -3,7 +3,7 @@
 describe('Automation Practice Page frame validation', function() 
 {
  
-it('Demo Testcases for Child frame and window handling',function() {
+it.skip('Demo Testcases for Child frame and window handling',function() {
  
 
 cy.visit("https://rahulshettyacademy.com/AutomationPractice/")

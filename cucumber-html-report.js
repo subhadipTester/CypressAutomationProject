@@ -10,8 +10,8 @@ report.generate({
         },
         device: 'Local test machine',
         platform: {
-            name: 'ubuntu',
-            version: '16.04'
+            name: 'Windows',
+            version: '10'
         }
     },
     customData: {
@@ -20,8 +20,8 @@ report.generate({
             {label: 'Project', value: 'Cypress Project'},
             {label: 'Release', value: '3.0.1'},
             {label: 'Cycle', value: 'B11221.34321'},
-            {label: 'Execution Start Time', value: 'Dec 27th 2022, 02:31 PM EST'},
-            {label: 'Execution End Time', value: 'Dec 27th 2017, 02:56 PM EST'}
+            {label: 'Execution Start Time', value: 'Dec 30th 2022, 08:30 PM EST'},
+            {label: 'Execution End Time', value: 'Dec 30th 2017, 09:30 PM EST'}
         ]
     }
 });
